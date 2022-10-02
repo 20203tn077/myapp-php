@@ -1,6 +1,8 @@
 <?php
-class Model {
-    function __construct() {
-        // echo "view template...";
+class Model
+{
+    function __construct()
+    {
+        // echo "model template...";
     }
 }

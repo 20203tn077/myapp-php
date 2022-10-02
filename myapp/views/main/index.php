@@ -8,7 +8,7 @@
 </head>
 <body>
     <?php require('views/header.php')?>
-    <h1>Hola Liz</h1>
+    <h1>Main section</h1>
     <?php require('views/footer.php')?>
 </body>
 </html>
