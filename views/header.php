@@ -20,16 +20,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="main">Home</a>
+                        <a class="nav-link active" aria-current="page" href="<?php echo constant('URL') ?>main">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="create">Create</a>
+                        <a class="nav-link" href="<?php echo constant('URL') ?>create">Create</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="search">Search</a>
+                        <a class="nav-link" href="<?php echo constant('URL') ?>search">Search</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="help">Help</a>
+                        <a class="nav-link" href="<?php echo constant('URL') ?>help">Help</a>
                     </li>
                 </ul>
             </div>

@@ -1,5 +1,6 @@
 <?php
-class Controller{
+class Controller
+{
     function __construct()
     {
         // echo "Controller template...";

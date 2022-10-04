@@ -1,8 +1,9 @@
 <?php
-class Errors
+class Errors extends Controller
 {
     function __construct()
     {
-        echo "<p>Error loading requested resource...</p>";
+        parent::__construct();
+        $this->view->render('errors/index');
     }
 }
